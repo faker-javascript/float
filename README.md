@@ -15,7 +15,7 @@ $ npm install --save @fakerjs/float
 ## Usage
 
 ```js
-import fakeFloat from '@fakerjs/random-float';
+import fakeFloat from '@fakerjs/float';
 
 fakeFloat();
 //=> -120920142888.5024
