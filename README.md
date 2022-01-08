@@ -15,15 +15,15 @@ $ npm install --save @fakerjs/float
 ## Usage
 
 ```js
-import randomFloat from '@fakerjs/random-float';
+import fakeFloat from '@fakerjs/random-float';
 
-randomFloat();
+fakeFloat();
 //=> -120920142888.5024
 
-randomFloat(0, 10);
+fakeFloat(0, 10);
 //=> 7.6913
 
-randomFloat(0, 10, 6);
+fakeFloat(0, 10, 6);
 //=> 7.691312
 ```
 
