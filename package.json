@@ -1,9 +1,9 @@
 {
   "name": "@fakerjs/float",
   "version": "1.0.0",
-  "description": "Random Integer package provides functionality to generate a fake float value.",
+  "description": "Float package provides functionality to generate a fake float value.",
   "license": "MIT",
-  "repository": "fakerjs/float",
+  "repository": "faker-javascript/float",
   "author": {
     "name": "Sergey Romanenko",
     "email": "awilum@msn.com",
