@@ -1,0 +1,33 @@
+{
+  "name": "@fakerjs/float",
+  "version": "1.0.0",
+  "description": "Random Integer package provides functionality to generate a fake float value.",
+  "license": "MIT",
+  "repository": "fakerjs/float",
+  "author": {
+    "name": "Sergey Romanenko",
+    "email": "awilum@msn.com",
+    "url": "https://github.com/Awilum"
+  },
+  "type": "module",
+  "exports": "./index.js",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^3.15.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "fakerjs",
+    "faker",
+    "random",
+    "float",
+    "number"
+  ]
+}
