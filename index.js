@@ -1,11 +1,8 @@
-export default function fakeFloat(min, max, fixed) {
-    fixed = Math.pow(10, ((fixed === undefined) ? 4 : fixed));
-    if (max === undefined) {
-        max = Number.MAX_SAFE_INTEGER / fixed;
-    }
-    if (min === undefined) {
-        min = Number.MIN_SAFE_INTEGER / fixed;
-    }
+export default function fakeFloat(options) {
+    options = options || {};
+    let fixed = Math.pow(10, ((options.fixed === undefined) ? 4 : options.fixed));
+    let max = (options.max === undefined) ? Number.MAX_SAFE_INTEGER / fixed : options.max;
+    let min = (options.min === undefined) ? Number.MIN_SAFE_INTEGER / fixed : options.min;
     if (typeof min !== 'number' || typeof max !== 'number') {
 		throw new TypeError('Expected all arguments to be numbers.');
 	}

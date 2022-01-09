@@ -15,15 +15,15 @@ $ npm install --save @fakerjs/float
 ## Usage
 
 ```js
-import fakeFloat from '@fakerjs/float';
+import float from '@fakerjs/float';
 
-fakeFloat();
+float();
 //=> -120920142888.5024
 
-fakeFloat(0, 10);
+float({min: 0, max: 10});
 //=> 7.6913
 
-fakeFloat(0, 10, 6);
+float({min: 0, max: 10, fixed: 6);
 //=> 7.691312
 ```
 
