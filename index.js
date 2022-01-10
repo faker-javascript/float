@@ -1,4 +1,4 @@
-export default function fakeFloat(options) {
+export default function float(options) {
     options = options || {};
     let fixed = Math.pow(10, ((options.fixed === undefined) ? 4 : options.fixed));
     let max = (options.max === undefined) ? Number.MAX_SAFE_INTEGER / fixed : options.max;
