@@ -1,5 +1,5 @@
 <a name="2.0.1"></a>
-# [2.0.1](https://github.com/faker-javascript/float) (2022-01-10)
+# [2.0.1](https://github.com/faker-javascript/float) (2022-01-11)
 * GitHub docs updates.
 * Codebase fixes.
 
