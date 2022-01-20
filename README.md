@@ -9,8 +9,14 @@ Float package provides functionality to generate a fake float value.
 
 ## Install
 
+npm
 ```
-$ npm install --save @fakerjs/float
+npm install @fakerjs/float --save-dev
+```
+
+yarn
+```
+yarn add @fakerjs/float -D
 ```
 
 ## Usage
